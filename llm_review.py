@@ -20,7 +20,7 @@ Find issues:
 - Fix: [how to fix]
 """
     response = client.models.generate_content(
-        model="gemini-2.0-flash",
+        model="gemini-1.5-flash-8b",
         contents=prompt
     )
     return response.text
